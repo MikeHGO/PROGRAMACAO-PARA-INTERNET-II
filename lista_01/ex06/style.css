@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#n1 {
+	width: 17rem;
+}
+
+.mid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem;
+}
+
+.box {
+	border: 0.2rem solid black;
+	min-width: 10rem;
+	min-height: 10rem;
+}
+
+.bottom {
+	width: 21rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
